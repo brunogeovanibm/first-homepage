@@ -94,6 +94,7 @@ a, .hero-secondary {
     border-radius: 20px;
     padding: 12px;
     padding-bottom: 2px;
+  
 }
 
 .info-header {
@@ -122,15 +123,14 @@ a, .hero-secondary {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 16px;
+    gap: 10px;
+    margin-bottom: 1em;
    
 }
 
 .info-card img{
-    border: 3px solid burlywood;
-    border-radius: 8px;
-    height: 180px;
-    width: 180px;
+    height: 220px;
+    width: 220px;
 }
 
 
@@ -139,17 +139,18 @@ a, .hero-secondary {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color:#E5E7EB;
     padding: 0px 80px;
-    border-radius: 21px;
-    border: solid 3px bur;
+border-radius: 21px;
+    
 }
 
 .quote {
     margin: 100px 22%;
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .quote-author{
@@ -165,18 +166,20 @@ a, .hero-secondary {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F9FAF8;
+    background-color: #E5E7EB;
 }
 
 .signup-panel {
     display:flex;
     justify-content: space-between;
     background-color: #a8c03d;
-    color: #F9FAF8;
     border-radius: 4px;
     width: 60%;
     padding: 30px 100px;
     margin: 80px;
+    border: solid; 
+    border-radius: 21px;
+    border-color: #23a850;
 }
 
 .signup-text {
@@ -199,6 +202,7 @@ a, .hero-secondary {
     border: 2px solid;
     border-radius: 8px;
     width: 120px;
+    
 }
 
 .footer {
@@ -208,6 +212,11 @@ a, .hero-secondary {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.header-links{
+    border: solid; color: #23a850;
+    border-radius: 21px;
+    border-spacing: 2em;
 }
 
 
