@@ -29,12 +29,14 @@ body {
     height: 300px;
     width: 500px;
     border-radius: 21px;
+    border: solid;
+    border-color: rgb(180, 180, 2);
 }
 
 .hero-main{
     font-size: 48px;
     font-weight: 900;
-    color: white;
+    color: #E5E7EB;
 }
 
 a {
@@ -77,6 +79,7 @@ a, .hero-secondary {
     border: 2px solid;
     border-radius: 8px;
     width: 120px;
+    border-color: r;
 }
 .hero-text {
     display: flex;
@@ -95,6 +98,8 @@ a, .hero-secondary {
     border-radius: 20px;
     padding: 12px;
     padding-bottom: 2px;
+    border: solid;
+    border-color: rgb(180, 180, 2);
   
 }
 
@@ -132,7 +137,7 @@ a, .hero-secondary {
     height: 150px;
     width: 150px;
     border: solid; border-radius: 21px;
-    border-color: #a8c03d;
+    border-color: rgb(180, 180, 2);
 }
 
 
@@ -140,8 +145,10 @@ a, .hero-secondary {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     background-color:#E5E7EB;
+    border: solid;
+    border-color: rgb(180, 180, 2);
     padding: 0px 80px;
 border-radius: 21px;
     
@@ -181,12 +188,13 @@ border-radius: 21px;
     margin: 80px;
     border: solid; 
     border-radius: 21px;
-    border-color: #E5E7EB;
+    border-color: rgb(180, 180, 2);
 }
 
 .signup-text {
     display: flex;
     flex-direction: column;
+    color: #E5E7EB;
 }
 
 .signup-header {
@@ -214,6 +222,8 @@ border-radius: 21px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border:solid,#E5E7EB;
+    border-radius: 21px;
 }
 .header-links{
     border: solid; color: #E5E7EB;
@@ -223,5 +233,5 @@ border-radius: 21px;
 
 .hero-secondary{
 font-family: "Roboto", sans-serif;
-font-weight: ;
+font-weight: 100;
 }
