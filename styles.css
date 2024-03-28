@@ -28,7 +28,7 @@ body {
     flex-shrink: 1;
     height: 300px;
     width: 500px;
-    border-radius: 10px;
+    border-radius: 21px;
 }
 
 .hero-main{
@@ -68,7 +68,7 @@ a, .hero-secondary {
 
 
 .button1 {
-    background-color: #23a850;
+    background-color: #a8c03d;
     color: #E5E7EB;
     border: none;
     padding: 8px;
@@ -76,13 +76,14 @@ a, .hero-secondary {
     border-radius: 8px;
     border: 2px solid;
     border-radius: 8px;
-    width: 120px;}
-
+    width: 120px;
+}
 .hero-text {
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 500px;
+   
 }
 
 .info-section {
@@ -124,13 +125,14 @@ a, .hero-secondary {
     align-items: center;
     text-align: center;
     gap: 10px;
-    margin-bottom: 1em;
    
 }
 
 .info-card img{
-    height: 220px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
+    border: solid; border-radius: 21px;
+    border-color: #a8c03d;
 }
 
 
@@ -179,7 +181,7 @@ border-radius: 21px;
     margin: 80px;
     border: solid; 
     border-radius: 21px;
-    border-color: #23a850;
+    border-color: #E5E7EB;
 }
 
 .signup-text {
@@ -193,7 +195,7 @@ border-radius: 21px;
 }
 
 .button2 {
-    background-color: #23a850;
+    background-color: #a8c03d;
     color: #E5E7EB;
     border: none;
     padding: 8px;
@@ -214,9 +216,12 @@ border-radius: 21px;
     align-items: center;
 }
 .header-links{
-    border: solid; color: #23a850;
+    border: solid; color: #E5E7EB;
     border-radius: 21px;
     border-spacing: 2em;
 }
 
-
+.hero-secondary{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+}
